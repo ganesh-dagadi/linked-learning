@@ -1,8 +1,8 @@
 .navbar {
     width: 50%;
     margin-left: 7%;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 25px;
     padding-right: 25px;
     height: auto;
@@ -17,8 +17,37 @@
     margin: 0 auto;
 }
 
+img {
+    height: 3rem;
+    border-radius: 50%;
+}
 
+a {
+    text-decoration: none;
+    color: 530492;
+}
 
 .navbar-link {
     width: fit-content;
+}
+
+.header {
+    padding: 2vh 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+.donate {
+    float: right;
+}
+
+@media all and (min-width:350px) and (max-width: 750px) {
+    .navbar {
+        width: 75%;
+    }
+
 }
